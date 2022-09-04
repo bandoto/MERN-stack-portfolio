@@ -12,7 +12,7 @@ const PostPage = () => {
     const params = useParams()
 
     const fetchPost = useCallback(async () => {
-        const { data } = await axios.get(`/posts/${params.id}`)
+        const { data } = await axios.get(`https://pepper-portfolio.herokuapp.com/posts/${params.id}`)
         setPost(data)
     }, [params.id])
 
@@ -34,7 +34,7 @@ const PostPage = () => {
             <div className="project__actions">
                 <div className="project__image">
                     {
-                        post?.imgUrl && <img src={`http://localhost:3002/${post.imgUrl}`} alt={post.title} />
+                        post?.imgUrl && <img src={`https://pepper-portfolio.herokuapp.com/${post.imgUrl}`} alt={post.title} />
                     }
                 </div>
                 <div className="project__links">

@@ -11,7 +11,7 @@ export const createWork = createAsyncThunk(
     'work/createWork',
     async (params) => {
         try {
-            const { data } = await axios.post('/works', params)
+            const { data } = await axios.post('https://pepper-portfolio.herokuapp.com/works', params)
             return data
         } catch (error) {
             console.log(error)
@@ -23,7 +23,7 @@ export const getAllWorks = createAsyncThunk(
     'work/getAllWorks',
     async () => {
         try {
-            const { data } = await axios.get('/works')
+            const { data } = await axios.get('https://pepper-portfolio.herokuapp.com/works')
             return data
         } catch (error) {
             console.log(error);
