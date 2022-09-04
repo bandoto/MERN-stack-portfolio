@@ -23,7 +23,7 @@ const CreateWorkPage = () => {
             data.append('description', description)
 
             dispatch(createWork(data))
-            navigate('https://pepper-portfolio.herokuapp.com/works')
+            navigate('/works')
         } catch (error) {
             console.log(error);
         }

@@ -27,7 +27,7 @@ const CreatePostPage = () => {
             data.append('link', link)
 
             dispatch(createPost(data))
-            navigate('https://pepper-portfolio.herokuapp.com/posts')
+            navigate('/posts')
         } catch (error) {
             console.log(error);
         }
