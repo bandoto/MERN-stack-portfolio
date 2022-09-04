@@ -12,7 +12,7 @@ export const registerUser = createAsyncThunk(
     'auth/registerUser',
     async ({ username, password }) => {
         try {
-            const { data } = await axios.post('https://pepper-portfolio.herokuapp.com/auth/register', {
+            const { data } = await axios.post('/auth/register', {
                 username,
                 password
             })
@@ -33,7 +33,7 @@ export const loginUser = createAsyncThunk(
     'auth/loginUser',
     async ({ username, password }) => {
         try {
-            const { data } = await axios.post('https://pepper-portfolio.herokuapp.com/auth/login', {
+            const { data } = await axios.post('/auth/login', {
                 username,
                 password
             })
@@ -54,7 +54,7 @@ export const getMe = createAsyncThunk(
     'auth/getMe',
     async () => {
         try {
-            const { data } = await axios.get('https://pepper-portfolio.herokuapp.com/auth/me')
+            const { data } = await axios.get('/auth/me')
             return data
 
         } catch (error) {
