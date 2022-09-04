@@ -19,11 +19,13 @@ const About = () => {
                                 className="btn"
                                 href="https://github.com/bandoto"
                                 target="_blank"
+                                rel="noreferrer" 
                                 >Github</a>
                             <a 
                                 className="btn"
                                 href="https://www.linkedin.com/in/vadim-pertsov-484b271b6/"
                                 target="_blank"
+                                rel="noreferrer" 
                                 >LinkedIn</a>
                             <a 
                                 className="btn"

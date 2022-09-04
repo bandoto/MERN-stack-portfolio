@@ -38,11 +38,15 @@ const PostPage = () => {
                     }
                 </div>
                 <div className="project__links">
-                    <a 
+                    <a
+                        target="_blank"
+                        rel="noreferrer" 
                         className="btn"
                         href={post?.github}
                         >Github</a>
-                    <a 
+                    <a
+                        target="_blank"
+                        rel="noreferrer"  
                         className="btn"
                         href={post?.link}
                         >Link</a>
