@@ -1,0 +1,51 @@
+@import '../../style/variables';
+
+.works__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.item-work {
+    box-shadow: 0px 0px 15px 1px $darkBlue;
+    width: 100%;
+    flex: 1 1 auto;
+    padding: 20px;
+    transition: all .3s;
+    
+    &:hover {
+        transform: translateY(-3px);
+    }
+
+    &__company {
+        color: $red;
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom: 10px;
+    }
+
+    &__period {
+        color: $darkBlue;
+        font-style: italic;
+    }
+
+    &__location {
+        color: $darkBlue;
+        font-style: italic;
+        text-decoration: underline;
+    }
+
+    &__col {
+        display: flex;
+        gap: 30px;
+    }
+
+    &__description {
+        margin-top: 30px;
+        text-align: justify;
+        color: #fff;
+    }
+}

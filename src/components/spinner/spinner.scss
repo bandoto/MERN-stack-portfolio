@@ -1,0 +1,15 @@
+@import '../../style/variables.scss';
+
+.spinner {
+    color: $red;
+    animation: pepper .3s infinite;
+
+}
+
+.spinner-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}

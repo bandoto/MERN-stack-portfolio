@@ -1,0 +1,60 @@
+@import '../../style/variables';
+
+.about {
+    &__body {
+
+    }
+
+    &__top {
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+
+        @media (max-width: 768px) {
+            flex-direction: column;
+        }
+    }
+
+    &__image {
+        img {
+            width: 100%;
+            max-width: 350px;
+            border-radius: 20px;
+            border: 2px solid $red;
+        }
+    }
+
+    &__title {
+        display: flex;
+        flex-direction: column;
+        h1 {
+            color: $red;
+            font-size: 32px;
+        }
+    }
+
+    &__links {
+
+    }
+
+    &__bio {
+        margin-top: 30px;
+        color: #fff;
+        text-align: justify;
+    }   
+
+    &__education {
+        margin-top: 50px;
+        span {
+            margin: 0 15px 0 0;
+            color: #fff;
+        }
+    }
+
+    &__university {
+        font-style: italic;
+        color: $red;
+        margin-bottom: 10px;
+    }
+}
