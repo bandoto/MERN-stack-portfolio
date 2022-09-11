@@ -75,6 +75,7 @@ const AppSidebar = () => {
                                 href={resume} 
                                 className="top-header__link"
                                 target="_blank"
+                                rel="noreferrer" 
                                 >Resume</a>
                         </li>
                     </ul>
