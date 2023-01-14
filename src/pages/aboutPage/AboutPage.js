@@ -34,15 +34,15 @@ const About = () => {
                         </div>
                            
                         <div className="about__bio">
-                            Hi there, my name is Vadim and I'm a Junior Frontend Developer. 
+                            Hi there, my name is Vadim and I'm a Junior Fullstack Developer.
                             <br /> 
-                            <br /> 
-                            Now I'm finishing my last year at the institute and trying my hand at website development. 
                             <br />
-                            At the moment, I'm looking for a job to improve my skills in this area and learn more and more in the development of sites of varying complexity.
-                            <br /> 
-                            <br /> 
-                            I'm passionate about frontend development and trying to be better than yesterday.
+                            Now I have finished my last year at the institute and I am trying myself in development.
+                            <br />
+                            At the moment I am looking for a job to improve my skills in this area and learn more and more in the development of websites of varying complexity.
+                            <br />
+                            <br />
+                            I am passionate about Fullstack development and try to be better than yesterday.
                         </div>
                     </div>
                 </div>
@@ -54,7 +54,7 @@ const About = () => {
                         "Igor Sikorsky Kyiv Polytechnic Institute"
                     </div>
                     <span>Radio Technician</span>
-                    <span>2017 – present</span>
+                    <span>2017 – 2023 - magister degree</span>
                 </div>
             </div>
         </div>
